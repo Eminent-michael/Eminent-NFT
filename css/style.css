@@ -19,11 +19,11 @@ body {
     --color-light: #848bc82e;
 }
 
-hr{
+hr {
     border: 1px solid var(--color-light);
 }
 
-.logo{
+.logo {
     width: 1.9rem;
 }
 
@@ -32,7 +32,7 @@ hr{
 }
 
 
-.red-color{
+.red-color {
     color: #bf2448 !important;
 }
 
@@ -83,7 +83,7 @@ hr{
     gap: 6px;
 }
 
-.header .brand a{
+.header .brand a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -96,7 +96,7 @@ hr{
     cursor: pointer;
 }
 
-.header .brand img{
+.header .brand img {
     cursor: pointer;
 }
 
@@ -108,27 +108,27 @@ hr{
     cursor: pointer;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     color: #3c02b2;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     align-items: center;
     flex-grow: 1;
 }
 
-.nav-menu .login{
+.nav-menu .login {
     margin-left: auto;
     transition: 0.2s ease-in-out;
 }
 
-.nav-menu .login:hover{
+.nav-menu .login:hover {
     background-color: #3c02b2;
     color: white;
 }
 
-.nav-menu .nav-item:nth-child(1){
+.nav-menu .nav-item:nth-child(1) {
     margin-left: auto;
 }
 
@@ -147,16 +147,16 @@ hr{
     cursor: pointer;
 }
 
-.nav-menu .get-started:hover{
+.nav-menu .get-started:hover {
     background-color: rgb(71, 60, 80);
 }
 
-.hamburger{
+.hamburger {
     display: none;
     cursor: pointer;
 }
 
-.bar{
+.bar {
     display: block;
     height: 2px;
     width: 22px;
@@ -166,7 +166,7 @@ hr{
 }
 
 .main-hero {
-    background-image: url(../images/nfts/background.png);
+    background-image: url(.images/nfts/background.png);
     background-repeat: no-repeat;
     background-size: clamp(40vw, 5rem, 10rem);
     background-position: right;
@@ -185,19 +185,19 @@ hr{
     line-height: 1.4;
 }
 
-.main-contents h1:nth-child(2){
+.main-contents h1:nth-child(2) {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.main-contents h1 img{
+.main-contents h1 img {
     width: clamp(9vw, 3rem, 5rem);
 }
 
 
 .sub-title p {
-    font-size: clamp(1vw,0.3rem, 0.8rem);
+    font-size: clamp(1vw, 0.3rem, 0.8rem);
 }
 
 .main-buttons {
@@ -230,16 +230,16 @@ hr{
     transition: 0.2s ease-in-out;
 }
 
-.main-buttons .discover:hover{
+.main-buttons .discover:hover {
     background-color: var(--color-light);
 }
 
-.main-buttons .discover:active{
+.main-buttons .discover:active {
     background-color: #ab64c9;
     color: white;
 }
 
-.main-buttons .discover span{
+.main-buttons .discover span {
     font-size: 0.9rem !important;
     display: flex;
     justify-self: baseline;
@@ -274,7 +274,7 @@ hr{
     transition: 0.2s ease-in-out;
 }
 
-.filter-tags .tag:hover{
+.filter-tags .tag:hover {
     background-color: #3c02b2;
     color: white;
 }
@@ -304,11 +304,11 @@ hr{
     gap: 26px;
 }
 
-.filters .filter-card.filt{
+.filters .filter-card.filt {
     display: none;
 }
 
-.filters .filter-card.cat{
+.filters .filter-card.cat {
     display: block;
 }
 
@@ -356,7 +356,7 @@ hr{
 }
 
 .profile-list>div:first-child {
-    background-image: url(../images/nfts/nft_person/ntf4.jpg);
+    background-image: url(.images/nfts/nft_person/ntf4.jpg);
     background-repeat: norepeat;
     background-size: cover;
     background-position: center;
@@ -387,7 +387,7 @@ hr{
     display: flex;
 }
 
-.coin-tag .filter-result{
+.coin-tag .filter-result {
     color: #b7b6b6;
     font-weight: 600;
 }
@@ -481,13 +481,13 @@ hr{
     align-items: center;
 }
 
-.icon- span{
+.icon- span {
     color: #b7b6b6;
 }
 
 .profile {
     border-radius: 50%;
-    margin-right: 10px;    
+    margin-right: 10px;
     height: 31px;
     width: 31px;
     overflow: hidden;
@@ -539,7 +539,7 @@ hr{
     transition: 0.1s ease-in-out;
 }
 
-.right-card-header div:hover{
+.right-card-header div:hover {
     background-color: #d7ef26;
 }
 
@@ -611,14 +611,14 @@ hr{
 }
 
 .right-card-footer .first .profile {
-    background-image: url(/images/profile/01.jpg);
+    background-image: url(images/profile/01.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 .right-card-footer .sec .profile {
-    background-image: url(/images/profile/01.jpg);
+    background-image: url(images/profile/01.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -664,7 +664,7 @@ hr{
 .collectibles-card {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .collectibles-title {
@@ -673,8 +673,8 @@ hr{
     align-items: center;
 }
 
-.collectibles-title h1{
-    font-size: clamp(3vw, 1.28rem, 2.4rem);    
+.collectibles-title h1 {
+    font-size: clamp(3vw, 1.28rem, 2.4rem);
 }
 
 .collectibles-title p {
@@ -682,11 +682,11 @@ hr{
     cursor: pointer;
 }
 
-.collectibles-title p:hover{
+.collectibles-title p:hover {
     color: #AB64C9;
 }
 
-.collectibles-card .filters.view{
+.collectibles-card .filters.view {
     display: none;
 }
 
@@ -734,7 +734,7 @@ hr{
     padding: 70px 0px;
 }
 
-.last-days h2{
+.last-days h2 {
     font-size: clamp(3.6vw, 1.28rem, 2.4rem);
 }
 
@@ -757,7 +757,7 @@ hr{
     height: 100%;
 }
 
-.past-trend div:first-child{
+.past-trend div:first-child {
     margin-bottom: 12px
 }
 
@@ -768,7 +768,7 @@ hr{
     margin-top: 12px;
 }
 
-.past-trend div:first-child .footer-card .info{
+.past-trend div:first-child .footer-card .info {
     display: flex;
     align-items: center;
 }
@@ -778,7 +778,7 @@ hr{
     flex-direction: column;
 }
 
-.past-trend div:first-child .footer-card .info .name h6{
+.past-trend div:first-child .footer-card .info .name h6 {
     display: flex;
     align-items: center;
 }
@@ -799,28 +799,29 @@ hr{
     font-size: 0.64rem;
 }
 
-.trend-people{
+.trend-people {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    ;
     height: 373px;
 }
 
-.trend-people > div{
+.trend-people>div {
     display: flex;
     height: calc(373px / 3 - 19px);
     justify-content: space-between;
     gap: 20px;
 }
 
-.trend-people > div:nth-child(2){
+.trend-people>div:nth-child(2) {
     margin: auto 0;
 }
 
-.trend-people .image{
+.trend-people .image {
     max-width: 100px;
 }
 
-.trend-people .image img{
+.trend-people .image img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -832,88 +833,88 @@ hr{
     margin-top: 4px;
 }
 
-.trend-people .contents h5{
+.trend-people .contents h5 {
     font-size: 0.78rem;
 }
 
-.trend-people .profile-{
+.trend-people .profile- {
     display: flex;
     margin: 8px 0 20px 0;
     justify-content: space-between;
     align-items: center;
 }
 
-.trend-people .profile- .coin-price{
+.trend-people .profile- .coin-price {
     font-size: 0.62rem;
     display: flex;
     align-items: center;
 }
 
-.trend-people .profile- .profile{
+.trend-people .profile- .profile {
     width: 23px;
     height: 23px;
 }
 
-.trend-people .profile- .left{
+.trend-people .profile- .left {
     font-size: 0.6rem;
     margin-left: 10px;
 }
 
-.trend-people .bid{
+.trend-people .bid {
     font-size: 0.7rem;
     font-weight: 600;
 }
 
-.ranking-page{
+.ranking-page {
     border-left: 1px solid var(--color-light);
     padding-left: 18px;
 }
 
-.ranking-page p{
+.ranking-page p {
     color: #5a34b2;
     font-size: 0.7rem;
     font-weight: 800;
     margin-top: 12px;
 }
 
-.ranking{
+.ranking {
     display: flex;
     padding: 10px 0;
     border-bottom: 1px solid var(--color-light);
 }
 
-.ranking:last-child{
+.ranking:last-child {
     border: none;
 }
 
-.ranking .ranks{
+.ranking .ranks {
     display: flex;
     align-items: center;
 }
 
-.ranks h4{
+.ranks h4 {
     margin-right: 11px;
 }
 
-.ranks .profile{
+.ranks .profile {
     width: 38px;
     height: 38px;
 }
 
-.ranking .coin-raise{
+.ranking .coin-raise {
     display: flex;
 }
 
-.ranking .name-coin{
+.ranking .name-coin {
     display: flex;
     flex-direction: column;
 }
 
-.ranking .name-coin h5{
+.ranking .name-coin h5 {
     font-size: 0.78rem;
 }
 
-.ranking .name-coin .coin-price{
+.ranking .name-coin .coin-price {
     font-size: 0.67rem;
     display: flex;
     align-items: center;
@@ -922,7 +923,7 @@ hr{
     font-weight: 600;
 }
 
-.ranking .coin-raise > h5{
+.ranking .coin-raise>h5 {
     align-self: flex-end;
     color: #45b8a7;
     font-weight: 700;
@@ -931,217 +932,222 @@ hr{
 
 /* ======== Footer======== */
 
-footer{
+footer {
     background-color: black;
 }
 
-footer *{
+footer * {
     color: white;
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
     padding: 60px 0;
 }
 
-footer .brand{
+footer .brand {
     display: flex;
     align-items: center;
     gap: 5px;
     margin-bottom: 10px;
 }
 
-footer .brand .logo{
+footer .brand .logo {
     width: 2.7rem;
 }
 
-footer .brand h2{
+footer .brand h2 {
     font-size: 1.2rem;
-    font-weight: 700;  
+    font-weight: 700;
 }
 
-footer .social-links .footer-content{
+footer .social-links .footer-content {
     display: flex;
     gap: 19px;
 }
 
-footer .social-links{
+footer .social-links {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     font-size: 0.6rem;
 }
 
-footer .social-links .footer-content .footer-item{
+footer .social-links .footer-content .footer-item {
     cursor: pointer;
 }
 
-footer .social-links > div{
+footer .social-links>div {
     margin-top: 18px;
 }
 
-footer .social-links > div:first-child{
+footer .social-links>div:first-child {
     margin-top: 0;
 }
 
-footer .social-links .social-media-icons{
+footer .social-links .social-media-icons {
     display: flex;
     gap: 10px;
     align-items: center !important;
 }
 
-footer .social-links .social-media-icons a:nth-child(2){
+footer .social-links .social-media-icons a:nth-child(2) {
     display: flex;
     justify-self: baseline;
 }
 
 
-footer .social-media-icons .social-icons{
+footer .social-media-icons .social-icons {
     width: 0.8rem;
 }
 
-footer .copyright{
+footer .copyright {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
+footer .social-links a {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
 
 /* ======= RESPONSIVENESS ====== */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .filter-tags .tag:last-child {
         display: flex;
         align-items: center;
         margin: 0;
     }
 
-    .ranking-page{
+    .ranking-page {
         width: 40%;
     }
 }
 
-@media screen and (max-width: 768px){
-    
+@media screen and (max-width: 768px) {
+
     .premium>div {
         width: auto;
         padding: 0 18px;
     }
 
 
-    .right-content{
+    .right-content {
         margin-top: 30px;
     }
 
-    .header{
+    .header {
         justify-content: space-between;
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
     }
 
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:first-child{
+    .hamburger.active .bar:first-child {
         transform: translateY(8px) rotate(45deg)
     }
 
-    .hamburger.active .bar:last-child{
+    .hamburger.active .bar:last-child {
         transform: translateY(-4px) rotate(-45deg)
     }
 
-    .nav-item{
+    .nav-item {
         margin: 0;
     }
 
-    .nav-menu{
+    .nav-menu {
         position: absolute;
         left: -100%;
         top: 55px;
         flex-direction: column;
         width: 78%;
-        background-color:rgba(0, 0, 0, 0.79);
+        background-color: rgba(0, 0, 0, 0.79);
         padding: 25px 0;
         z-index: 1;
         color: white;
         transition: 0.3s;
     }
 
-    .nav-item.get-started{
+    .nav-item.get-started {
         background-color: white;
         color: black;
     }
 
-    .nav-item.get-started:active{
+    .nav-item.get-started:active {
         background-color: rgb(225, 223, 223);
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
         left: 11%;
     }
 
-    .nav-menu *{
+    .nav-menu * {
         margin-top: 10px;
     }
 
-    .nav-menu .login{
+    .nav-menu .login {
         margin-left: 0;
     }
 
-    .nav-menu .nav-item:nth-child(1){
+    .nav-menu .nav-item:nth-child(1) {
         margin-left: 0;
         margin-top: 0;
     }
 
-    .ranking-container{
+    .ranking-container {
         margin-top: 40px !important;
     }
 
-    .ranking{
+    .ranking {
         justify-content: space-between;
         padding: 10px 8%;
     }
 
-    .ranking .ranks{
+    .ranking .ranks {
 
         justify-content: space-between;
         width: 30%;
     }
 
-    .ranking-page{
+    .ranking-page {
         border-left: none;
         width: 100%;
     }
 }
 
-@media screen and (max-width:495px){
-    .main-hero{
+@media screen and (max-width:495px) {
+    .main-hero {
         background-position: 50% 30px;
     }
 
     .sub-title p {
-        font-size: clamp(1vw,0.3rem, 0.8rem);
+        font-size: clamp(1vw, 0.3rem, 0.8rem);
         text-align: center;
     }
 
-    .main-contents{
+    .main-contents {
         align-items: center;
         transform: translate(0, 120%)
     }
 
-    .past-trend{
+    .past-trend {
         flex-direction: column;
     }
 
-    .trend-people{
+    .trend-people {
         margin-bottom: 60px;
     }
 
-    .collectibles-card{
+    .collectibles-card {
         flex-direction: column;
     }
 
@@ -1149,15 +1155,15 @@ footer .copyright{
         padding: 7px 25px;
     }
 
-    .right-card-body .right-card-price{
+    .right-card-body .right-card-price {
         text-align: center;
     }
 
-    .right-card-body .right-card-price p:first-child, .right-card-body .service p:first-child{
+    .right-card-body .right-card-price p:first-child, .right-card-body .service p:first-child {
         font-size: 0.6rem;
     }
 
-    .right-card-body .right-card-price p:last-child{
+    .right-card-body .right-card-price p:last-child {
         font-size: 0.6rem;
         display: flex;
         align-items: center;
@@ -1165,11 +1171,11 @@ footer .copyright{
         flex-wrap: wrap;
     }
 
-    .right-card-body .service p:last-child{
+    .right-card-body .service p:last-child {
         font-size: 0.67rem;
     }
 
-    .right-card-body .service{
+    .right-card-body .service {
         text-align: center;
     }
 
@@ -1182,7 +1188,7 @@ footer .copyright{
     .listing-table table {
         font-size: 0.5rem;
     }
-    
+
     .listing-table table td {
         height: 1.5rem;
         border-top: 1px solid var(--color-light);
@@ -1195,25 +1201,25 @@ footer .copyright{
         justify-content: center;
     }
 
-    .last-days h2{
+    .last-days h2 {
         text-align: center;
     }
 
     .discover-page {
         padding: 40px 0;
     }
-    
+
     .premium {
         display: flex;
         flex-direction: center;
         flex-wrap: wrap;
     }
-    
+
     .premium>div {
         width: 100%;
         padding: 0 18px;
     }
-    
+
     .premium .left-image img {
         width: 100%;
     }
@@ -1224,18 +1230,18 @@ footer .copyright{
         padding: 13px 30px;
         margin-top: -5px;
     }
-    
+
     .image-social * p {
         font-size: 0.7rem;
     }
-    
+
     .image-social .likes h5, .image-social .reserve h5 {
         display: flex;
         align-items: center;
         margin-top: 4px;
         font-size: 0.74rem;
     }
-    
+
     .image-social .likes span {
         font-size: 1rem;
     }
@@ -1244,16 +1250,16 @@ footer .copyright{
         font-size: 0.68rem;
         margin-top: 23px;
     }
-    
+
     .main-buttons>div {
         padding: 9px 13px;
     }
 
-    footer .container{
+    footer .container {
         flex-direction: column;
     }
 
-    footer .contents{
+    footer .contents {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1261,35 +1267,35 @@ footer .copyright{
         margin-bottom: 29px;
     }
 
-    footer .contents div:last-child{
+    footer .contents div:last-child {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    footer .social-links{
-    align-items: center;
+    footer .social-links {
+        align-items: center;
     }
 
-    .discover-title{
+    .discover-title {
         text-align: center;
     }
 
-    .filter-tags{
+    .filter-tags {
         align-items: center;
         justify-content: center;
     }
 
-    .filters{
+    .filters {
         align-items: center;
         justify-content: center;
     }
 
-    .right-content .right-card h5{
+    .right-content .right-card h5 {
         font-size: 0.6rem;
     }
 
-    .icon- span{
+    .icon- span {
         font-size: 1.2rem;
         color: #b7b6b6;
     }
@@ -1304,11 +1310,11 @@ footer .copyright{
     .right-card-header p, .right-card-header div {
         font-size: 0.5rem;
     }
-    
+
     .right-card-header h5 {
         font-size: 0.8rem;
     }
-    
+
     .right-card-header div {
         padding: 6px 8px;
     }
@@ -1320,7 +1326,7 @@ footer .copyright{
     .right-card-body .identif .name h5 {
         font-size: 0.536rem;
     }
-    
+
     .right-card-body .identif .name p {
         font-size: 0.51rem;
         margin-top: 4px;
@@ -1335,25 +1341,25 @@ footer .copyright{
         padding: 10px 0;
     }
 
-    .ranking .name-coin h5{
+    .ranking .name-coin h5 {
         font-size: 0.6rem;
     }
 
-    .ranking .ranks h4{
+    .ranking .ranks h4 {
         font-size: 0.78rem;
     }
-    
-    .ranking .name-coin .coin-price{
+
+    .ranking .name-coin .coin-price {
         font-size: 0.6rem;
     }
-    
-    .ranking .coin-raise > h5{
+
+    .ranking .coin-raise>h5 {
         font-size: 0.6rem;
     }
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
     .container {
         width: 85%;
         margin: 0 auto;
