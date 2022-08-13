@@ -1009,7 +1009,7 @@ footer .copyright {
 }
 
 footer .social-links a {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     margin-top: 10px;
 }
 
