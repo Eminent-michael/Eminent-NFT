@@ -166,7 +166,7 @@ hr {
 }
 
 .main-hero {
-    background-image: url(./images/nfts/background.png);
+    background-image: url(/images/nfts/background.png);
     background-repeat: no-repeat;
     background-size: clamp(40vw, 5rem, 10rem);
     background-position: right;
