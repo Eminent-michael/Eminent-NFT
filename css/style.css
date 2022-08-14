@@ -166,7 +166,7 @@ hr {
 }
 
 .main-hero {
-    background-image: url("Eminent-NFT/images/nfts/background.png");
+    background-image: url("../images/nfts/background.png");
     background-repeat: no-repeat;
     background-size: clamp(40vw, 5rem, 10rem);
     background-position: right;
@@ -356,7 +356,7 @@ hr {
 }
 
 .profile-list>div:first-child {
-    background-image: url("Eminent-NFT/images/nfts/nft_person/ntf4.jpg");
+    background-image: url("../images/nfts/nft_person/ntf4.jpg");
     background-repeat: norepeat;
     background-size: cover;
     background-position: center;
@@ -611,14 +611,14 @@ hr {
 }
 
 .right-card-footer .first .profile {
-    background-image: url(Eminent-NFT/images/profile/01.jpg);
+    background-image: url(../images/profile/01.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
 .right-card-footer .sec .profile {
-    background-image: url(Eminent-NFT/images/profile/01.jpg);
+    background-image: url(../images/profile/01.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
