@@ -168,7 +168,7 @@ hr {
 .main-hero {
     background-image: url("../images/nfts/background.png");
     background-repeat: no-repeat;
-    background-size: clamp(40vw, 5rem, 10rem);
+    background-size: clamp(48vw, 5rem, 10rem);
     background-position: right;
     height: 90vh;
     overflow-x: hidden;
@@ -1126,7 +1126,7 @@ footer .social-links a {
 
 @media screen and (max-width:495px) {
     .main-hero {
-        background-position: 50% 30px;
+        background-position: 50% 40px;
     }
 
     .sub-title p {
@@ -1136,7 +1136,7 @@ footer .social-links a {
 
     .main-contents {
         align-items: center;
-        transform: translate(0, 120%)
+        transform: translate(0, 160%)
     }
 
     .past-trend {
