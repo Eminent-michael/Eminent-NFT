@@ -23,6 +23,10 @@ hr {
     border: 1px solid var(--color-light);
 }
 
+.material-icons-sharp{
+    cursor: pointer;
+}
+
 .logo {
     width: 1.9rem;
 }
@@ -537,6 +541,7 @@ hr {
     border-radius: 9px;
     padding: 8px 10px;
     transition: 0.1s ease-in-out;
+    cursor: pointer;
 }
 
 .right-card-header div:hover {
@@ -992,14 +997,14 @@ footer .social-links .social-media-icons {
     align-items: center !important;
 }
 
-footer .social-links .social-media-icons a:nth-child(2) {
-    display: flex;
-    justify-self: baseline;
+footer .social-links .social-media-icons a:nth-child(2) img{
+    margin-top: 12px !important;
 }
 
 
 footer .social-media-icons .social-icons {
     width: 0.8rem;
+    cursor: pointer;
 }
 
 footer .copyright {
@@ -1244,6 +1249,7 @@ footer .social-links a {
 
     .image-social .likes span {
         font-size: 1rem;
+        cursor: pointer;
     }
 
     .main-buttons {
@@ -1298,6 +1304,7 @@ footer .social-links a {
     .icon- span {
         font-size: 1.2rem;
         color: #b7b6b6;
+        cursor: pointer;
     }
 
     .image-social {
