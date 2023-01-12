@@ -172,7 +172,7 @@ hr {
 .main-hero {
     background-image: url("../images/nfts/background.png");
     background-repeat: no-repeat;
-    background-size: clamp(48vw, 5rem, 10rem);
+    background-size: clamp(35vw, 5rem, 10rem);
     background-position: right;
     height: 90vh;
     overflow-x: hidden;
@@ -185,7 +185,7 @@ hr {
 }
 
 .main-contents h1 {
-    font-size: clamp(5vw, 1.6rem, 3.9rem);
+    font-size: clamp(4.6vw, 1.6rem, 3.9rem);
     line-height: 1.4;
 }
 
@@ -196,7 +196,7 @@ hr {
 }
 
 .main-contents h1 img {
-    width: clamp(9vw, 3rem, 5rem);
+    width: clamp(7vw, 3rem, 5rem);
 }
 
 
@@ -345,7 +345,7 @@ hr {
 
 .profile-list {
     position: absolute;
-    bottom: -6px;
+    bottom: -10px;
     margin-left: 7px;
     display: flex;
     z-index: 99;
@@ -353,17 +353,17 @@ hr {
 
 .profile-list>div {
     border-radius: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
     height: 25px;
     width: 25px;
     margin-left: -9px;
-}
-
-.profile-list>div:first-child {
     background-image: url("../images/nfts/nft_person/ntf4.jpg");
     background-repeat: norepeat;
     background-size: cover;
     background-position: center;
+}
+
+.profile-list>div:first-child {
     margin-left: 0 !important;
 }
 
